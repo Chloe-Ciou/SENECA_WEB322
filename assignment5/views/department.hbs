@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{department.[0].departmentName}} - Department: {{department.[0].departmentId}}</h2>
+        <hr />
+        <form method="post" action="/department/update">
+            <fieldset>
+                <input id="employeeNum" name="departmentId" type="hidden" value="{{department.[0].departmentId}}"/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="departmentName">Department Name</label>
+                            <input class="form-control" id="departmentName" name="departmentName" type="text" value={{department.[0].departmentName}}>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <input type="submit" class="btn btn-primary pull-right" value="Update Department" /><br /><br /><br />
+        </form>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Kodchasan);
+
+* {
+    font-family: 'Fjalla One', 'Kodchasan', Arial, Helvetica, sans-serif;
+}
+
+.active {
+    background-color: bisque;
+    color: white;
+}
